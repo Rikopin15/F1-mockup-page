@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+/* Navbar */
+.custom-navbar {
+    background-color: #000;
+    border-bottom: 2px solid #ff3c00;
+}
+
+.nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff3c00 !important;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+        ),
+
+        url("https://imgs.search.brave.com/10a20AB1yjs-JLYzsXNTOF1x2xi_-tq7jc1NXWAZvCo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDExNjQ4/MTgzLmpwZw");
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* Buttons */
+.custom-btn {
+    background-color: #ff3c00;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #cc3000;
+    color: white;
+}
+
+/* Cards */
+.feature-card {
+    background-color: #1b1b1b;
+    border: 1px solid #ff3c00;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+/* About Section */
+.about-section {
+    min-height: 100vh;
+}
+
+/* Contact */
+.contact-section {
+    min-height: 100vh;
+}
+
+.contact-box {
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    border: 1px solid #ff3c00;
+}
+
+/* Form */
+.form-control {
+    background-color: #222;
+    border: 1px solid #555;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: #222;
+    color: white;
+    border-color: #ff3c00;
+    box-shadow: none;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+}
